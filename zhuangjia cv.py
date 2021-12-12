@@ -20,7 +20,7 @@ while(True):
         print("")
         print("--New F:")
     ret, img = cam.read()  # 获取一帧图像
-    img = cv2.imread("testImg.png")
+    img = cv2.imread("testImg.png") #利用图片测试
 
     # 图像通道分离
     blueImg, greenImg, redImg = cv2.split(img)  # 分离图像的RGB通道
